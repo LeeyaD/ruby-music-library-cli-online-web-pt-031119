@@ -73,5 +73,6 @@ class MusicLibraryController
       end
     end
 
-    self.send(:listsongs)
+    
+      
 end
