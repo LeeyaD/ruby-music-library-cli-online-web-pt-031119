@@ -79,8 +79,7 @@ class MusicLibraryController
       puts "Which song number would you like to play?"
       input = gets.strip.to_i
       #binding.pry
-      song = Song.all[input]
-      if input > 0 && input <= Song.all.size + 1 #ensures input is valid
+      if (1..Song.all.length).include?(input) #ensures input is valid
         puts "Playing #{song.name} by #{song.artist.name}"
       end 
 
