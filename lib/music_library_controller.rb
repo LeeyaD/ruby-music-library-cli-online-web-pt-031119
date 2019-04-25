@@ -73,7 +73,7 @@ class MusicLibraryController
       end
     end
 
-    input = gets.strip
+    input = gets.chomp
     case input
     when 'list songs'
       list_songs
