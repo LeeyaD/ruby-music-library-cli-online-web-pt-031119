@@ -73,4 +73,8 @@ class MusicLibraryController
       end
     end
 
+    case gets.strip
+    when 'list songs'
+      list_songs
+    end
 end
