@@ -73,7 +73,7 @@ class MusicLibraryController
       end
     end
 
-
+`music_library_controller(:list_songs)`
 
 
 end
