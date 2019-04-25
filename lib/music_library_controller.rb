@@ -42,12 +42,6 @@ class MusicLibraryController
        end
     end
 
-    def get_artist(input)
-      Artist.all.find {|singer| singer.name == input}
-      #take in users input & find said artist in Artist class
-    end
-
-
     def list_songs_by_artist
       puts "Please enter the name of an artist:"
       input = gets.strip #<need to know the artist
