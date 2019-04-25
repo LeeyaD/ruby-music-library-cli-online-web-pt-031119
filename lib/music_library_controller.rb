@@ -73,7 +73,8 @@ class MusicLibraryController
       end
     end
 
-    case gets.chomp
+    input = gets.strip
+    case ginput
     when 'list songs'
       list_songs
     end
