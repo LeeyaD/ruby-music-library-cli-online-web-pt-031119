@@ -73,8 +73,4 @@ class MusicLibraryController
       end
     end
 
-    if gets.strip == 'list songs'
-      self.list_songs
-    end
-
 end
