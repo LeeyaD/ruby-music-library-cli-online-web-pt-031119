@@ -73,7 +73,7 @@ class MusicLibraryController
       end
     end
 
-    :list_songs = list_songs
+  
     
 
 end
