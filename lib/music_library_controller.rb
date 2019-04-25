@@ -72,11 +72,5 @@ class MusicLibraryController
         song = Song.all.sort_by(&:name)[input-1]
         puts "Playing #{song.name} by #{song.artist.name}" if song
       end
-
     end
-#upon receiving valid input 'plays' the matching song from the alphabetized list output by #list_songs
-#to receive(:puts).with("Which song number would you like to play?")
-#to receive(:puts).with("Playing Larry Csonka by Action Bronson")
-#doesn't puts anything out if a matching song isn't found
-#checks that user entered a number between 1 and the total number of songs in library otherwise it does nothing
 end
