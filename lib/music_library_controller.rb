@@ -74,6 +74,6 @@ class MusicLibraryController
     end
 
     :list_songs = list_songs
-    self(:list_songs)
+    
 
 end
