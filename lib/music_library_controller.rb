@@ -73,9 +73,5 @@ class MusicLibraryController
       end
     end
 
-    input = gets.chomp
-    case input
-    when 'list songs'
-      list_songs
-    end
+    self.send(:list_songs)
 end
