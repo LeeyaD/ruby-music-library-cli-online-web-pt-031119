@@ -90,5 +90,4 @@ class MusicLibraryController
 #to receive(:puts).with("Playing Larry Csonka by Action Bronson")
 #doesn't puts anything out if a matching song isn't found
 #checks that user entered a number between 1 and the total number of songs in library otherwise it does nothing
-    end
 end
