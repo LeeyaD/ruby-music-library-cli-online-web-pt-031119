@@ -24,12 +24,8 @@ class MusicLibraryController
 
   end
 
-  def class_sort(klass)
-    klass.all.sort_by{|obj| obj.name}
-  end
-
   def list_songs
-    class_sort(Song).each.with_index(1) do |song, i|
+    Song.all.sort_by(&:name).each.with_index(1) do |song, i|
      puts "#{i}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
     end
   end
