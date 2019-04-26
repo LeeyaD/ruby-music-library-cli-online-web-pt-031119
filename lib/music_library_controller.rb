@@ -21,10 +21,11 @@ class MusicLibraryController
       puts "What would you like to do?"
 
       input = gets.chomp
-      #binding.pry
       case input
       when "list songs"
         list_songs
+      when "list artist"
+        list_artists
       end
     end
 
